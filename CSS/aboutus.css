@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, 'Times New Roman', Times, sans-serif;
+    background-image: url("..\\IMAGES\\1_912pJLEbGCC-i_W_yAqedQ.jpeg");
+}
+.aboutus{
+    margin-top: 6%;
+    color: bisque;
+    text-align: center;
+}
+.ceo{
+    color: white;
+    padding: 1%;
+}
+.main img{
+    height: 200px;
+    width: 200px;
+    margin: 2%;
+}
+.main h2{
+    color: bisque;
+    padding: 1% 0 1% 4%;
+}
+.ceoText{
+    color: white;
+    padding: 1%;
+}

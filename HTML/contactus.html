@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaptureAll</title>
+    <link rel="stylesheet" href="..\CSS\header.css" type="text/css">
+    <link rel="stylesheet" href="..\CSS\footer.css" type="text/css">
+    <link rel="stylesheet" href="..\CSS\contactus.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Header section starts here -->
+    <header>
+        <div class="header-top">
+            <div class="header-top-left">
+                <div class="header-top-left-first">
+                    <img src="..\IMAGES\logo.jpg" id="logoImage">
+                </div>
+                <div class="header-top-left-second">
+                    <h1 id="logoText1">welcome to captureAll</h1>
+                    <h1 id="logoText2">capture your best moments</h1>
+                </div>
+            </div>
+            <div class="header-top-right">
+                <div class="header-top-right-first">
+                    <p id="header-top-right-first-text">Sukedhara, Kathmandu Nepal</p>
+                </div>
+                <div class="header-top-right-second">
+                    <p id="header-top-right-second-text">captureall@gmail.com</p>
+                </div>
+                <div class="header-top-right-third">
+                    <p id="header-top-right-third-text">9841284762,01-4678935</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom" id="header-bottom">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="homepage.html">home</a></li>
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="reviews.html">reviews</a></li>
+                    <li><a href="contactus.html">contact us</a></li>
+                    <li><a href="bookus.html">book now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        window.onscroll = function () {
+            var element = document.getElementById("header-bottom");
+            var currentPosition = window.pageYOffset;
+            if (currentPosition > 50) {
+                element.style.top = 0 + "px";
+                element.style.transition = "all 0.5s ease";
+                // element.style.position = fixed;
+            }
+            else {
+                element.style.top = 65 + "px";
+            }
+        };
+    </script>
+    <!-- Header section ends here  -->
+    
+    <!-- Main body section starts here-->
+    <h1 class="contactus">Find Us At:</h1>
+    <div class="main">
+        <div class="main1">
+            <div class="main-item">
+                <i class="fa fa-map-marker contact-icon"></i>
+                <div class="contact-text">Sukedhara, Kathmandu Nepal</div>
+            </div>
+            <div class="main-item">
+                <i class="fa fa-envelope contact-icon"></i>
+                <div class="contact-text">captureall@gmail.com</div>
+            </div>
+            <div class="main-item">
+                <i class="fa fa-phone contact-icon"></i>
+                <div class="contact-text">(+977) 9841284762, 01-4678935</div>
+            </div>
+        </div>
+ 		<div class="main2">
+            <h3>@ Across Sukedhara Bus Stop</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7063.294173083917!2d85.33968743489851!3d27.728180699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19f5323fb707%3A0x3bef7b9bf7d42df9!2sSukedhara%20bus%20stop!5e0!3m2!1sen!2snp!4v1675782686524!5m2!1sen!2snp"
+                            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+	</div>
+    <!-- Main body section ends here -->
+
+    <!-- Footer section starts here -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <h1>Quick Links</h3>
+                        <ul>
+                            <li><a href="homepage.html">home</a></li>
+                            <li><a href="aboutus.html">about us</a></li>
+                            <li><a href="gallery.html">gallery</a></li>
+                            <li><a href="reviews.html">reviews</a></li>
+                            <li><a href="contactus.html">contact us</a></li>
+                            <li><a href="bookus.html">book now</a></li>
+                        </ul>
+                </div>
+                <div class="col2">
+                    <h1>Find Us</h3>
+                        <h3>@ Across Sukedhara Bus Stop</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7063.294173083917!2d85.33968743489851!3d27.728180699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19f5323fb707%3A0x3bef7b9bf7d42df9!2sSukedhara%20bus%20stop!5e0!3m2!1sen!2snp!4v1675782686524!5m2!1sen!2snp"
+                            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col3">
+                    <h1>Contact Info</h3>
+                        <p>Sukedhara, Kathmandu Nepal</p>
+                        <p>Phone: (+977) 9841284762, 01-4678935</p>
+                        <p>Email: captureall@gmail.com</p>
+                </div>
+            </div>
+            <p class="copyright">Copyright © 2023 CaptureAll</p>
+        </div>
+    </footer>
+    <!-- Footer section ends here -->
+</body>
+
+</html>

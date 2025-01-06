@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaptureAll</title>
+    <link rel="stylesheet" href="..\CSS\header.css" type="text/css">
+</head>
+
+<body>
+    <!-- Header section starts here -->
+    <header>
+        <div class="header-top">
+            <div class="header-top-left">
+                <div class="header-top-left-first">
+                    <img src="..\IMAGES\logo.jpg" id="logoImage">
+                </div>
+                <div class="header-top-left-second">
+                    <h1 id="logoText1">welcome to captureAll</h1>
+                    <h1 id="logoText2">capture your best moments</h1>
+                </div>
+            </div>
+            <div class="header-top-right">
+                <div class="header-top-right-first">
+                    <p id="header-top-right-first-text">Sukedhara, Kathmandu Nepal</p>
+                </div>
+                <div class="header-top-right-second">
+                    <p id="header-top-right-second-text">captureall@gmail.com</p>
+                </div>
+                <div class="header-top-right-third">
+                    <p id="header-top-right-third-text">9841284762,01-4678935</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom" id="header-bottom">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="homepage.html">home</a></li>
+                    <li><a href="aboutus.html">about us</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="reviews.html">reviews</a></li>
+                    <li><a href="contactus.html">contact us</a></li>
+                    <li><a href="bookus.html">book now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        window.onscroll = function () {
+            var element = document.getElementById("header-bottom");
+            var currentPosition = window.pageYOffset;
+            if (currentPosition > 50) {
+                element.style.top = 0 + "px";
+                element.style.transition = "all 0.5s ease";
+                // element.style.position = fixed;
+            }
+            else {
+                element.style.top = 65 + "px";
+            }
+        };
+    </script>
+    <!-- Header section ends here  -->
+</body>
+</html>

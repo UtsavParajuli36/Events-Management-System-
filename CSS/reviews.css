@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.reviews{
+    text-align: center;
+    margin-top:6%;
+    color: bisque;
+}
+body{
+    font-family:Arial, 'Times New Roman', Times, sans-serif;
+    background-image: url("..\\IMAGES\\1_912pJLEbGCC-i_W_yAqedQ.jpeg");
+}
+.reviewsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:auto;
+    text-align: center;
+}
+.item {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+}
+.item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.item p {
+    font-size: 14px;
+    margin: 0;
+    text-align: justify;
+    color:white;
+}
